@@ -156,6 +156,8 @@ class LookupModule(LookupBase):
                     qtype = arg.upper()
                 elif opt == 'flat':
                     flat = int(arg)
+                elif opt == 'port':
+                    myres.port = int(arg)
 
                 continue
 
